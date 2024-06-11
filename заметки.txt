@@ -1,0 +1,2 @@
+создать таблицу с плавающей последней ячейкой
+= List.Dates((#date(2018,01,01)),Number.From(DateTime.LocalNow())-Number.From((#date(2018,01,01))),#duration(1,0,0,0))
